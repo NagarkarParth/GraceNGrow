@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import {Portfolio} from "@/components/content";export const metadata:Metadata={title:"Portfolio",description:"Explore illustrative brand, social, video, campaign and website concepts."};export default function Page(){return <Portfolio/>}

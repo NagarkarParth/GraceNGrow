@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import {Home} from "@/components/content";export const metadata:Metadata={title:"We build brands. We create impact.",description:"Creative marketing solutions that help businesses grow through strategy, branding, content and digital experiences."};export default function Page(){return <Home/>}

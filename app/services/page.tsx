@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import {Services} from "@/components/content";export const metadata:Metadata={title:"Services",description:"Social media marketing, branding, video, performance marketing, websites and content creation."};export default function Page(){return <Services/>}

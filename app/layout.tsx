@@ -1,0 +1,3 @@
+import type {Metadata} from "next";import "./globals.css";import {Navbar,Footer,WhatsAppFloat} from "@/components/shell";
+export const metadata:Metadata={metadataBase:new URL("https://gracengrow.in"),title:{default:"Grace N Grow Marketing | Ideas that move brands forward",template:"%s | Grace N Grow Marketing"},description:"Creative marketing solutions for thoughtful brands. Strategy, branding, content and digital experiences designed to help businesses grow.",openGraph:{title:"Grace N Grow Marketing",description:"We build brands. We create impact.",type:"website",images:["/images/logo.webp"]}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><Navbar/><main>{children}</main><Footer/><WhatsAppFloat/></body></html>}

@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import {About} from "@/components/content";export const metadata:Metadata={title:"About us",description:"Get to know Grace N Grow Marketing, our approach, mission and values."};export default function Page(){return <About/>}

@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import {Contact} from "@/components/content";export const metadata:Metadata={title:"Contact",description:"Start a conversation with Grace N Grow Marketing on WhatsApp or by email."};export default function Page(){return <Contact/>}
