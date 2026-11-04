@@ -112,3 +112,13 @@
 @media(max-width:760px){.textiles-logo{height:96px}.textiles-logo img{width:104px;height:104px}}
 
 
+
+/* Subtle motion only: preserve the existing GRACE N GROW layout and content. */
+.homehero .back,.pagehero .back{animation:heroAmbientDrift 22s ease-in-out infinite alternate;transform-origin:center;will-change:transform}
+@keyframes heroAmbientDrift{from{transform:scale(1)}to{transform:scale(1.055) translate3d(-.45%,.2%,0)}}
+@media(prefers-reduced-motion:reduce){.homehero .back,.pagehero .back{animation:none;transform:none}}
+
+.page-transition{position:relative}
+
+main{display:grid;grid-template-columns:minmax(0,1fr)}
+.page-transition{grid-area:1/1;min-width:0;position:relative}
