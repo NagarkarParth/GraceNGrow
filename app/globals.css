@@ -122,3 +122,9 @@
 
 main{display:grid;grid-template-columns:minmax(0,1fr)}
 .page-transition{grid-area:1/1;min-width:0;position:relative}
+
+.quote{grid-template-columns:.7fr 1.3fr;gap:6%}.testimonial-visual{margin:0;width:100%;max-width:500px;justify-self:end;overflow:hidden;background:#fff;border-left:3px solid var(--turq);box-shadow:0 14px 36px #10252312}.testimonial-visual img{display:block;width:100%;height:auto}
+
+
+@media(max-width:760px){.quote{grid-template-columns:minmax(0,1fr);gap:20px}.testimonial-visual{width:min(100%,420px);justify-self:center}}
+
