@@ -1,1 +1,1 @@
-import type {Metadata} from "next";import {Clients} from "@/components/content";export const metadata:Metadata={title:"Our clients",description:"Meet the brands and partners growing with Grace N Grow Marketing."};export default function Page(){return <Clients/>}
+import {Clients} from "@/components/content";import {pageMetadata} from "@/lib/seo";export const metadata=pageMetadata("Our Clients","Discover brands from different industries that have worked with Grace N Grow Marketing.","/clients");export default function Page(){return <Clients/>}

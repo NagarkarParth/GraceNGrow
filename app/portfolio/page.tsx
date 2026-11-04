@@ -1,1 +1,1 @@
-import type {Metadata} from "next";import {Portfolio} from "@/components/content";export const metadata:Metadata={title:"Portfolio",description:"Explore illustrative brand, social, video, campaign and website concepts."};export default function Page(){return <Portfolio/>}
+import {Portfolio} from "@/components/content";import {pageMetadata} from "@/lib/seo";export const metadata=pageMetadata("Portfolio","Explore selected branding, social media, video, campaign and website concepts by Grace N Grow Marketing.","/portfolio");export default function Page(){return <Portfolio/>}

@@ -1,1 +1,1 @@
-import type {Metadata} from "next";import {Contact} from "@/components/content";export const metadata:Metadata={title:"Contact",description:"Start a conversation with Grace N Grow Marketing on WhatsApp or by email."};export default function Page(){return <Contact/>}
+import {Contact} from "@/components/content";import {pageMetadata} from "@/lib/seo";export const metadata=pageMetadata("Contact","Contact Grace N Grow Marketing in India to discuss your branding, marketing, content or website project.","/contact");export default function Page(){return <Contact/>}
